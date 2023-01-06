@@ -7,7 +7,7 @@ function App() {
     <div>
      <ExpenseItem/>
      <Counter/>
-     <Button></Button>
+     <Button child='+'/>
     </div>
   );
 }
