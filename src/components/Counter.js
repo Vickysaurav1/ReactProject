@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Button from './Button';
 
 function Counter() {
     const[count,setCount] = useState(0);
@@ -15,8 +16,8 @@ function Counter() {
   return (
     <div>
         <p>{count}</p>
-        <button onClick={inc}>+</button>
-        <button onClick={dec}>-</button>
+        <Button classn='reactangular' onclick={inc} child="+" />
+        <Button classn='rounded' onclick={dec} child='-' />
     </div>
   )
 }
