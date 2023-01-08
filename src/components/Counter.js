@@ -4,9 +4,13 @@ import Button from './Button';
 function Counter() {
     
     const[count,setCount] = useState(0);
+    
+    //counter for increment
     const inc = () => {
         setCount(count+1);
     }
+    //counter for decrement
+
     const dec = () => {
         if(count==0){
             alert('bas ho gya bhai');
