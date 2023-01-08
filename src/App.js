@@ -1,5 +1,3 @@
-import Button from "./components/Button";
-import Counter from "./components/Counter";
 import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
