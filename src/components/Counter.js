@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button';
 
-function Counter() {
+const Counter = () => {
     
     const[count,setCount] = useState(0);
     
@@ -12,7 +12,7 @@ function Counter() {
     //counter for decrement
 
     const dec = () => {
-        if(count==0){
+        if(count===0){
             alert('bas ho gya bhai');
         }else{
        setCount(count-1);
